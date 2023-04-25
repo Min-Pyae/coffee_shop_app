@@ -55,8 +55,8 @@ class _ShopPageState extends State<ShopPage> {
                         children: const [
                           Image(
                             image: AssetImage('Images/coffee-shop.png'),
-                            width: 45,
-                            height: 45,
+                            // width: 45,
+                            // height: 45,
                           ),
                           SizedBox(width: 15.0,),
                           Text(

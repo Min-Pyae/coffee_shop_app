@@ -16,9 +16,9 @@ class LoginPage extends StatelessWidget {
             children: [
               const Image(
                   image: AssetImage('Images/coffee-shop.png'),
-                  fit: BoxFit.contain,
-                  width: 100,
-                  height: 100,
+                  // fit: BoxFit.contain,
+                  // width: 100,
+                  // height: 100,
               ),
 
               const SizedBox(
