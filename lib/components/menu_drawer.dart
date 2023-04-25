@@ -1,4 +1,3 @@
-import 'package:coffee_shop_app/const.dart';
 import 'package:coffee_shop_app/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
@@ -57,7 +56,7 @@ class MenuDrawer extends StatelessWidget {
               ),
               title: const Text('Log out'),
               onTap: () {
-                Navigator.of(context).push(MaterialPageRoute(builder: (context) => const Login_Page()));
+                Navigator.of(context).push(MaterialPageRoute(builder: (context) => const LoginPage()));
               },
             )
           ],

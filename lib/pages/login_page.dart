@@ -2,8 +2,8 @@ import 'package:coffee_shop_app/const.dart';
 import 'package:coffee_shop_app/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
-class Login_Page extends StatelessWidget {
-  const Login_Page({Key? key}) : super(key: key);
+class LoginPage extends StatelessWidget {
+  const LoginPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

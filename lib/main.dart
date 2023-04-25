@@ -1,5 +1,4 @@
 import 'package:coffee_shop_app/models/coffee_shop.dart';
-import 'package:coffee_shop_app/pages/home_page.dart';
 import 'package:coffee_shop_app/pages/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
       builder: (context, child) {
         return const MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: Login_Page(),
+          home: LoginPage(),
         );
       },
     );
